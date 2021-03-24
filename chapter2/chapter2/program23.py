@@ -15,4 +15,4 @@ calculated_integer = numerator//denominator
 #calculated the remainder of the numerator divided by the denominator
 calcualted_remainder = numerator%denominator
 #display mixed number result
-print('The mixed number is ' ,calculated_integer,' and ',calcualted_remainder, '/',denominator,sep='')
+print(f'The mixed number is {calculated_integer} and ',calcualted_remainder, '/',denominator,sep='')
